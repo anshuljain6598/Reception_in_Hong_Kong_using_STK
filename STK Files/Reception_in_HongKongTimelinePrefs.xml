@@ -1,0 +1,63 @@
+<?xml version = "1.0" standalone = "yes"?>
+<TimelineLine_Prefs STK_version = "12.1.0">
+    <Views Type = "Content">
+        <ContentView Name = "Scenario Availability">
+            <Row ClassName = "Scenario" ComponentName = "AvailabilityIntervals" DisplayName = "Reception_in_HongKong AvailabilityIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "/Application/STK/Scenario/Reception_in_HongKong" Type = "IntervalList">
+                <Interval Name = "Reception_in_HongKong AvailabilityIntervals" StartTime = "20 Dec 2020 06:30:00.000" StopTime = "20 Jan 2021 06:30:00.000" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Ship-USS_Reagon-To-Satellite-SIRIUS-1_26390 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/Reception_in_HongKong/Ship/USS_Reagon;/Application/STK/Scenario/Reception_in_HongKong/Satellite/SIRIUS-1_26390" Type = "IntervalList">
+                <Interval Name = "Ship-USS_Reagon-To-Satellite-SIRIUS-1_26390 AccessIntervals" StartTime = "21 Dec 2020 10:12:44.952" StopTime = "21 Dec 2020 12:16:33.841" />
+                <Interval Name = "Ship-USS_Reagon-To-Satellite-SIRIUS-1_26390 AccessIntervals" StartTime = "22 Dec 2020 02:45:28.136" StopTime = "22 Dec 2020 08:53:59.136" />
+                <Interval Name = "Ship-USS_Reagon-To-Satellite-SIRIUS-1_26390 AccessIntervals" StartTime = "22 Dec 2020 12:32:40.924" StopTime = "22 Dec 2020 21:31:35.844" />
+                <Interval Name = "Ship-USS_Reagon-To-Satellite-SIRIUS-1_26390 AccessIntervals" StartTime = "23 Dec 2020 20:12:15.883" StopTime = "24 Dec 2020 08:13:28.918" />
+                <Interval Name = "Ship-USS_Reagon-To-Satellite-SIRIUS-1_26390 AccessIntervals" StartTime = "24 Dec 2020 12:21:15.516" StopTime = "24 Dec 2020 16:19:33.571" />
+                <Interval Name = "Ship-USS_Reagon-To-Satellite-SIRIUS-1_26390 AccessIntervals" StartTime = "25 Dec 2020 07:49:56.786" StopTime = "25 Dec 2020 11:27:08.216" />
+                <Interval Name = "Ship-USS_Reagon-To-Satellite-SIRIUS-1_26390 AccessIntervals" StartTime = "25 Dec 2020 16:18:23.936" StopTime = "26 Dec 2020 03:59:52.791" />
+                <Interval Name = "Ship-USS_Reagon-To-Satellite-SIRIUS-1_26390 AccessIntervals" StartTime = "27 Dec 2020 02:48:17.185" StopTime = "27 Dec 2020 11:40:00.349" />
+                <Interval Name = "Ship-USS_Reagon-To-Satellite-SIRIUS-1_26390 AccessIntervals" StartTime = "27 Dec 2020 15:09:02.336" StopTime = "27 Dec 2020 21:22:30.579" />
+                <Interval Name = "Ship-USS_Reagon-To-Satellite-SIRIUS-1_26390 AccessIntervals" StartTime = "28 Dec 2020 12:27:51.820" StopTime = "28 Dec 2020 13:28:51.723" />
+                <Interval Name = "Ship-USS_Reagon-To-Satellite-SIRIUS-1_26390 AccessIntervals" StartTime = "28 Dec 2020 20:47:37.400" StopTime = "29 Dec 2020 08:45:14.218" />
+                <Interval Name = "Ship-USS_Reagon-To-Satellite-SIRIUS-1_26390 AccessIntervals" StartTime = "30 Dec 2020 08:10:27.219" StopTime = "30 Dec 2020 15:33:11.628" />
+                <Interval Name = "Ship-USS_Reagon-To-Satellite-SIRIUS-1_26390 AccessIntervals" StartTime = "30 Dec 2020 17:55:48.258" StopTime = "31 Dec 2020 01:53:55.927" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Ship-USS_Reagon-To-Satellite-SIRIUS-2_26483 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/Reception_in_HongKong/Ship/USS_Reagon;/Application/STK/Scenario/Reception_in_HongKong/Satellite/SIRIUS-2_26483" Type = "IntervalList">
+                <Interval Name = "Ship-USS_Reagon-To-Satellite-SIRIUS-2_26483 AccessIntervals" StartTime = "21 Dec 2020 08:00:00.000" StopTime = "21 Dec 2020 13:18:17.301" />
+                <Interval Name = "Ship-USS_Reagon-To-Satellite-SIRIUS-2_26483 AccessIntervals" StartTime = "22 Dec 2020 10:05:06.552" StopTime = "22 Dec 2020 21:11:25.815" />
+                <Interval Name = "Ship-USS_Reagon-To-Satellite-SIRIUS-2_26483 AccessIntervals" StartTime = "23 Dec 2020 03:38:01.868" StopTime = "23 Dec 2020 05:34:21.040" />
+                <Interval Name = "Ship-USS_Reagon-To-Satellite-SIRIUS-2_26483 AccessIntervals" StartTime = "23 Dec 2020 19:39:23.345" StopTime = "24 Dec 2020 02:05:29.835" />
+                <Interval Name = "Ship-USS_Reagon-To-Satellite-SIRIUS-2_26483 AccessIntervals" StartTime = "24 Dec 2020 04:56:09.790" StopTime = "24 Dec 2020 11:54:09.168" />
+                <Interval Name = "Ship-USS_Reagon-To-Satellite-SIRIUS-2_26483 AccessIntervals" StartTime = "25 Dec 2020 10:04:47.109" StopTime = "25 Dec 2020 21:39:23.549" />
+                <Interval Name = "Ship-USS_Reagon-To-Satellite-SIRIUS-2_26483 AccessIntervals" StartTime = "26 Dec 2020 19:06:54.925" StopTime = "27 Dec 2020 02:59:43.978" />
+                <Interval Name = "Ship-USS_Reagon-To-Satellite-SIRIUS-2_26483 AccessIntervals" StartTime = "27 Dec 2020 07:02:20.353" StopTime = "27 Dec 2020 12:23:40.074" />
+                <Interval Name = "Ship-USS_Reagon-To-Satellite-SIRIUS-2_26483 AccessIntervals" StartTime = "28 Dec 2020 01:59:44.804" StopTime = "28 Dec 2020 05:45:20.719" />
+                <Interval Name = "Ship-USS_Reagon-To-Satellite-SIRIUS-2_26483 AccessIntervals" StartTime = "28 Dec 2020 10:50:03.830" StopTime = "28 Dec 2020 21:05:58.420" />
+                <Interval Name = "Ship-USS_Reagon-To-Satellite-SIRIUS-2_26483 AccessIntervals" StartTime = "29 Dec 2020 17:02:57.110" StopTime = "30 Dec 2020 03:55:46.044" />
+                <Interval Name = "Ship-USS_Reagon-To-Satellite-SIRIUS-2_26483 AccessIntervals" StartTime = "30 Dec 2020 09:19:03.382" StopTime = "30 Dec 2020 12:22:52.997" />
+                <Interval Name = "Ship-USS_Reagon-To-Satellite-SIRIUS-2_26483 AccessIntervals" StartTime = "31 Dec 2020 02:31:31.710" StopTime = "31 Dec 2020 06:13:12.268" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Ship-USS_Reagon-To-Satellite-SIRIUS-3_26626 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/Reception_in_HongKong/Ship/USS_Reagon;/Application/STK/Scenario/Reception_in_HongKong/Satellite/SIRIUS-3_26626" Type = "IntervalList">
+                <Interval Name = "Ship-USS_Reagon-To-Satellite-SIRIUS-3_26626 AccessIntervals" StartTime = "22 Dec 2020 00:31:51.079" StopTime = "22 Dec 2020 12:10:22.371" />
+                <Interval Name = "Ship-USS_Reagon-To-Satellite-SIRIUS-3_26626 AccessIntervals" StartTime = "22 Dec 2020 19:35:09.714" StopTime = "22 Dec 2020 20:34:19.853" />
+                <Interval Name = "Ship-USS_Reagon-To-Satellite-SIRIUS-3_26626 AccessIntervals" StartTime = "23 Dec 2020 11:39:29.740" StopTime = "23 Dec 2020 18:04:15.219" />
+                <Interval Name = "Ship-USS_Reagon-To-Satellite-SIRIUS-3_26626 AccessIntervals" StartTime = "23 Dec 2020 20:55:46.483" StopTime = "24 Dec 2020 05:17:08.438" />
+                <Interval Name = "Ship-USS_Reagon-To-Satellite-SIRIUS-3_26626 AccessIntervals" StartTime = "25 Dec 2020 04:18:49.470" StopTime = "25 Dec 2020 16:11:11.804" />
+                <Interval Name = "Ship-USS_Reagon-To-Satellite-SIRIUS-3_26626 AccessIntervals" StartTime = "25 Dec 2020 21:30:29.102" StopTime = "26 Dec 2020 00:47:16.999" />
+                <Interval Name = "Ship-USS_Reagon-To-Satellite-SIRIUS-3_26626 AccessIntervals" StartTime = "26 Dec 2020 15:32:40.502" StopTime = "26 Dec 2020 20:25:41.180" />
+                <Interval Name = "Ship-USS_Reagon-To-Satellite-SIRIUS-3_26626 AccessIntervals" StartTime = "27 Dec 2020 00:45:51.584" StopTime = "27 Dec 2020 11:02:20.779" />
+                <Interval Name = "Ship-USS_Reagon-To-Satellite-SIRIUS-3_26626 AccessIntervals" StartTime = "28 Dec 2020 09:09:37.554" StopTime = "28 Dec 2020 19:36:51.751" />
+                <Interval Name = "Ship-USS_Reagon-To-Satellite-SIRIUS-3_26626 AccessIntervals" StartTime = "29 Dec 2020 00:06:02.201" StopTime = "29 Dec 2020 04:49:07.806" />
+                <Interval Name = "Ship-USS_Reagon-To-Satellite-SIRIUS-3_26626 AccessIntervals" StartTime = "29 Dec 2020 19:29:30.558" StopTime = "29 Dec 2020 23:03:13.769" />
+                <Interval Name = "Ship-USS_Reagon-To-Satellite-SIRIUS-3_26626 AccessIntervals" StartTime = "30 Dec 2020 04:14:27.405" StopTime = "30 Dec 2020 15:55:32.366" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Ship-USS_Reagon-To-Satellite-Xm3_28626 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/Reception_in_HongKong/Ship/USS_Reagon;/Application/STK/Scenario/Reception_in_HongKong/Satellite/Xm3_28626" Type = "IntervalList">
+                <Interval Name = "Ship-USS_Reagon-To-Satellite-Xm3_28626 AccessIntervals" StartTime = "21 Dec 2020 08:00:00.000" StopTime = "25 Dec 2020 04:27:43.486" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Ship-USS_Reagon-To-Satellite-XM4_29520 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/Reception_in_HongKong/Ship/USS_Reagon;/Application/STK/Scenario/Reception_in_HongKong/Satellite/XM4_29520" Type = "IntervalList">
+                <Interval Name = "Ship-USS_Reagon-To-Satellite-XM4_29520 AccessIntervals" StartTime = "21 Dec 2020 08:00:00.000" StopTime = "27 Dec 2020 10:53:51.271" />
+            </Row>
+        </ContentView>
+    </Views>
+    <Views Type = "Time">
+        <TimeView FullViewRulerStartTime = "0.000000" FullViewRulerStopTime = "0.000000" GlobalIntervalComp = "AnalysisInterval" GlobalIntervalCompPath = "/Application/STK/Scenario/Reception_in_HongKong" GlobalStartOffset = "0.000000" GlobalStartTime = "20 Dec 2020 06:30:00.000" GlobalStopOffset = "0.000000" GlobalStopTime = "20 Jan 2021 06:30:00.000" MaxFullViewTime = "0.000000" MinFullViewTime = "0.000000" Name = "Scenario Analysis Period" ViewportStartTime = "0.000000" ViewportStopTime = "0.000000" />
+    </Views>
+</TimelineLine_Prefs>

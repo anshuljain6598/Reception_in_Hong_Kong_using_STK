@@ -1,0 +1,512 @@
+stk.v.12.0
+WrittenBy    STK_v12.1.0
+BEGIN Access
+    Scenario/Reception_in_HongKong/Ship/USS_Reagon
+    Scenario/Reception_in_HongKong/Satellite/Xm3_28626
+
+    IsComputed		 Yes
+    SaveComputedData		 Yes
+    ComputationMode		 1
+    UpdateOnReference		 Yes
+    DupIsDifferent		 No
+    UIOrderReversed		 No
+    UITimePeriod		 Object
+    UseLightTimeDelay		 Yes
+    ClockHost		 Base
+    TimeSense		 Transmit
+    AberrationType		 Annual
+    TimeDelayConvergence		 5e-05
+    SetMaxStepFromInsts		 Yes
+    MaxTimeStep		 360
+    MinTimeStep		 0.01
+    TimeConvergence		 0.005
+    AbsValueConvergence		 1e-14
+    RelValueConvergence		 1e-08
+    DetectEventsUsingSamplesOnly		 No
+
+    BEGIN ConsideredIntervals
+
+        2020-12-21T08:00:00.000000000 2020-12-31T06:13:12.267748039
+
+    END ConsideredIntervals
+
+    BEGIN AccessIntervals
+
+        2020-12-21T08:00:00.000000000 2020-12-25T04:27:43.486241965
+
+    END AccessIntervals
+
+    BEGIN StageList
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 LineOfSight
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 1
+
+                    BEGIN ConstraintInputTimes
+
+                        2020-12-21T08:00:00.000000000 2020-12-31T06:13:12.267748039
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2020-12-21T08:00:00.000000000 2020-12-25T04:27:43.486241965
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+    END StageList
+
+    Show		 Yes
+    Inherit		 Yes
+    ShowIV		 Yes
+    ShowLineGfx		 Yes
+    ShowHiliteGfx		 Yes
+    LineWidth		 1
+
+    BEGIN Crdn
+    END Crdn
+
+END Access
+
+BEGIN Access
+    Scenario/Reception_in_HongKong/Ship/USS_Reagon
+    Scenario/Reception_in_HongKong/Satellite/SIRIUS-3_26626
+
+    IsComputed		 Yes
+    SaveComputedData		 Yes
+    ComputationMode		 1
+    UpdateOnReference		 Yes
+    DupIsDifferent		 No
+    UIOrderReversed		 No
+    UITimePeriod		 Object
+    UseLightTimeDelay		 Yes
+    ClockHost		 Base
+    TimeSense		 Transmit
+    AberrationType		 Annual
+    TimeDelayConvergence		 5e-05
+    SetMaxStepFromInsts		 Yes
+    MaxTimeStep		 360
+    MinTimeStep		 0.01
+    TimeConvergence		 0.005
+    AbsValueConvergence		 1e-14
+    RelValueConvergence		 1e-08
+    DetectEventsUsingSamplesOnly		 No
+
+    BEGIN ConsideredIntervals
+
+        2020-12-21T08:00:00.000000000 2020-12-31T06:13:12.267748039
+
+    END ConsideredIntervals
+
+    BEGIN AccessIntervals
+
+        2020-12-22T00:31:51.078618251 2020-12-22T12:10:22.371002520
+        2020-12-22T19:35:09.714050980 2020-12-22T20:34:19.853200156
+        2020-12-23T11:39:29.739573785 2020-12-23T18:04:15.218831995
+        2020-12-23T20:55:46.482702099 2020-12-24T05:17:08.438432717
+        2020-12-25T04:18:49.469871494 2020-12-25T16:11:11.803770969
+        2020-12-25T21:30:29.101738410 2020-12-26T00:47:16.998766013
+        2020-12-26T15:32:40.502161100 2020-12-26T20:25:41.180296123
+        2020-12-27T00:45:51.584119904 2020-12-27T11:02:20.778745220
+        2020-12-28T09:09:37.554261287 2020-12-28T19:36:51.751050471
+        2020-12-29T00:06:02.201145159 2020-12-29T04:49:07.806465707
+        2020-12-29T19:29:30.558106866 2020-12-29T23:03:13.769042491
+        2020-12-30T04:14:27.405330655 2020-12-30T15:55:32.366460546
+
+    END AccessIntervals
+
+    BEGIN StageList
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 LineOfSight
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 1
+
+                    BEGIN ConstraintInputTimes
+
+                        2020-12-21T08:00:00.000000000 2020-12-31T06:13:12.267748039
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2020-12-22T00:31:51.078618251 2020-12-22T12:10:22.371002520
+                        2020-12-22T19:35:09.714050980 2020-12-22T20:34:19.853200156
+                        2020-12-23T11:39:29.739573785 2020-12-23T18:04:15.218831995
+                        2020-12-23T20:55:46.482702099 2020-12-24T05:17:08.438432717
+                        2020-12-25T04:18:49.469871494 2020-12-25T16:11:11.803770969
+                        2020-12-25T21:30:29.101738410 2020-12-26T00:47:16.998766013
+                        2020-12-26T15:32:40.502161100 2020-12-26T20:25:41.180296123
+                        2020-12-27T00:45:51.584119904 2020-12-27T11:02:20.778745220
+                        2020-12-28T09:09:37.554261287 2020-12-28T19:36:51.751050471
+                        2020-12-29T00:06:02.201145159 2020-12-29T04:49:07.806465707
+                        2020-12-29T19:29:30.558106866 2020-12-29T23:03:13.769042491
+                        2020-12-30T04:14:27.405330655 2020-12-30T15:55:32.366460546
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+    END StageList
+
+    Show		 Yes
+    Inherit		 Yes
+    ShowIV		 Yes
+    ShowLineGfx		 Yes
+    ShowHiliteGfx		 Yes
+    LineWidth		 1
+
+    BEGIN Crdn
+    END Crdn
+
+END Access
+
+BEGIN Access
+    Scenario/Reception_in_HongKong/Ship/USS_Reagon
+    Scenario/Reception_in_HongKong/Satellite/SIRIUS-2_26483
+
+    IsComputed		 Yes
+    SaveComputedData		 Yes
+    ComputationMode		 1
+    UpdateOnReference		 Yes
+    DupIsDifferent		 No
+    UIOrderReversed		 No
+    UITimePeriod		 Object
+    UseLightTimeDelay		 Yes
+    ClockHost		 Base
+    TimeSense		 Transmit
+    AberrationType		 Annual
+    TimeDelayConvergence		 5e-05
+    SetMaxStepFromInsts		 Yes
+    MaxTimeStep		 360
+    MinTimeStep		 0.01
+    TimeConvergence		 0.005
+    AbsValueConvergence		 1e-14
+    RelValueConvergence		 1e-08
+    DetectEventsUsingSamplesOnly		 No
+
+    BEGIN ConsideredIntervals
+
+        2020-12-21T08:00:00.000000000 2020-12-31T06:13:12.267748039
+
+    END ConsideredIntervals
+
+    BEGIN AccessIntervals
+
+        2020-12-21T08:00:00.000000000 2020-12-21T13:18:17.300906239
+        2020-12-22T10:05:06.551574126 2020-12-22T21:11:25.814820577
+        2020-12-23T03:38:01.868203089 2020-12-23T05:34:21.039783114
+        2020-12-23T19:39:23.344751938 2020-12-24T02:05:29.835122616
+        2020-12-24T04:56:09.790035243 2020-12-24T11:54:09.168201273
+        2020-12-25T10:04:47.108871298 2020-12-25T21:39:23.549457816
+        2020-12-26T19:06:54.925192630 2020-12-27T02:59:43.978478078
+        2020-12-27T07:02:20.352986127 2020-12-27T12:23:40.073904888
+        2020-12-28T01:59:44.804075423 2020-12-28T05:45:20.719280331
+        2020-12-28T10:50:03.830260200 2020-12-28T21:05:58.420316840
+        2020-12-29T17:02:57.110076078 2020-12-30T03:55:46.043759584
+        2020-12-30T09:19:03.382020563 2020-12-30T12:22:52.996881123
+        2020-12-31T02:31:31.709928165 2020-12-31T06:13:12.267748039
+
+    END AccessIntervals
+
+    BEGIN StageList
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 LineOfSight
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 1
+
+                    BEGIN ConstraintInputTimes
+
+                        2020-12-21T08:00:00.000000000 2020-12-31T06:13:12.267748039
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2020-12-21T08:00:00.000000000 2020-12-21T13:18:17.300906239
+                        2020-12-22T10:05:06.551574126 2020-12-22T21:11:25.814820577
+                        2020-12-23T03:38:01.868203089 2020-12-23T05:34:21.039783114
+                        2020-12-23T19:39:23.344751938 2020-12-24T02:05:29.835122616
+                        2020-12-24T04:56:09.790035243 2020-12-24T11:54:09.168201273
+                        2020-12-25T10:04:47.108871298 2020-12-25T21:39:23.549457816
+                        2020-12-26T19:06:54.925192630 2020-12-27T02:59:43.978478078
+                        2020-12-27T07:02:20.352986127 2020-12-27T12:23:40.073904888
+                        2020-12-28T01:59:44.804075423 2020-12-28T05:45:20.719280331
+                        2020-12-28T10:50:03.830260200 2020-12-28T21:05:58.420316840
+                        2020-12-29T17:02:57.110076078 2020-12-30T03:55:46.043759584
+                        2020-12-30T09:19:03.382020563 2020-12-30T12:22:52.996881123
+                        2020-12-31T02:31:31.709928165 2020-12-31T06:13:12.267748039
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+    END StageList
+
+    Show		 Yes
+    Inherit		 Yes
+    ShowIV		 Yes
+    ShowLineGfx		 Yes
+    ShowHiliteGfx		 Yes
+    LineWidth		 1
+
+    BEGIN Crdn
+    END Crdn
+
+END Access
+
+BEGIN Access
+    Scenario/Reception_in_HongKong/Ship/USS_Reagon
+    Scenario/Reception_in_HongKong/Satellite/XM4_29520
+
+    IsComputed		 Yes
+    SaveComputedData		 Yes
+    ComputationMode		 1
+    UpdateOnReference		 Yes
+    DupIsDifferent		 No
+    UIOrderReversed		 No
+    UITimePeriod		 Object
+    UseLightTimeDelay		 Yes
+    ClockHost		 Base
+    TimeSense		 Transmit
+    AberrationType		 Annual
+    TimeDelayConvergence		 5e-05
+    SetMaxStepFromInsts		 Yes
+    MaxTimeStep		 360
+    MinTimeStep		 0.01
+    TimeConvergence		 0.005
+    AbsValueConvergence		 1e-14
+    RelValueConvergence		 1e-08
+    DetectEventsUsingSamplesOnly		 No
+
+    BEGIN ConsideredIntervals
+
+        2020-12-21T08:00:00.000000000 2020-12-31T06:13:12.267748039
+
+    END ConsideredIntervals
+
+    BEGIN AccessIntervals
+
+        2020-12-21T08:00:00.000000000 2020-12-27T10:53:51.271343371
+
+    END AccessIntervals
+
+    BEGIN StageList
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 LineOfSight
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 1
+
+                    BEGIN ConstraintInputTimes
+
+                        2020-12-21T08:00:00.000000000 2020-12-31T06:13:12.267748039
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2020-12-21T08:00:00.000000000 2020-12-27T10:53:51.271343371
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+    END StageList
+
+    Show		 Yes
+    Inherit		 Yes
+    ShowIV		 Yes
+    ShowLineGfx		 Yes
+    ShowHiliteGfx		 Yes
+    LineWidth		 1
+
+    BEGIN Crdn
+    END Crdn
+
+END Access
+
+BEGIN Access
+    Scenario/Reception_in_HongKong/Ship/USS_Reagon
+    Scenario/Reception_in_HongKong/Satellite/SIRIUS-1_26390
+
+    IsComputed		 Yes
+    SaveComputedData		 Yes
+    ComputationMode		 1
+    UpdateOnReference		 Yes
+    DupIsDifferent		 No
+    UIOrderReversed		 No
+    UITimePeriod		 Object
+    UseLightTimeDelay		 Yes
+    ClockHost		 Base
+    TimeSense		 Transmit
+    AberrationType		 Annual
+    TimeDelayConvergence		 5e-05
+    SetMaxStepFromInsts		 Yes
+    MaxTimeStep		 360
+    MinTimeStep		 0.01
+    TimeConvergence		 0.005
+    AbsValueConvergence		 1e-14
+    RelValueConvergence		 1e-08
+    DetectEventsUsingSamplesOnly		 No
+
+    BEGIN ConsideredIntervals
+
+        2020-12-21T08:00:00.000000000 2020-12-31T06:13:12.267748039
+
+    END ConsideredIntervals
+
+    BEGIN AccessIntervals
+
+        2020-12-21T10:12:44.952340052 2020-12-21T12:16:33.841287357
+        2020-12-22T02:45:28.135595461 2020-12-22T08:53:59.136079210
+        2020-12-22T12:32:40.923598377 2020-12-22T21:31:35.844033971
+        2020-12-23T20:12:15.882766116 2020-12-24T08:13:28.918013753
+        2020-12-24T12:21:15.516257848 2020-12-24T16:19:33.571477644
+        2020-12-25T07:49:56.785777977 2020-12-25T11:27:08.215555498
+        2020-12-25T16:18:23.935810216 2020-12-26T03:59:52.791156730
+        2020-12-27T02:48:17.184737689 2020-12-27T11:40:00.349313980
+        2020-12-27T15:09:02.335574462 2020-12-27T21:22:30.579418458
+        2020-12-28T12:27:51.819528983 2020-12-28T13:28:51.723156453
+        2020-12-28T20:47:37.400093854 2020-12-29T08:45:14.217744186
+        2020-12-30T08:10:27.218515130 2020-12-30T15:33:11.628252405
+        2020-12-30T17:55:48.258142512 2020-12-31T01:53:55.926588619
+
+    END AccessIntervals
+
+    BEGIN StageList
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 LineOfSight
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 1
+
+                    BEGIN ConstraintInputTimes
+
+                        2020-12-21T08:00:00.000000000 2020-12-31T06:13:12.267748039
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2020-12-21T10:12:44.952340052 2020-12-21T12:16:33.841287357
+                        2020-12-22T02:45:28.135595461 2020-12-22T08:53:59.136079210
+                        2020-12-22T12:32:40.923598377 2020-12-22T21:31:35.844033971
+                        2020-12-23T20:12:15.882766116 2020-12-24T08:13:28.918013753
+                        2020-12-24T12:21:15.516257848 2020-12-24T16:19:33.571477644
+                        2020-12-25T07:49:56.785777977 2020-12-25T11:27:08.215555498
+                        2020-12-25T16:18:23.935810216 2020-12-26T03:59:52.791156730
+                        2020-12-27T02:48:17.184737689 2020-12-27T11:40:00.349313980
+                        2020-12-27T15:09:02.335574462 2020-12-27T21:22:30.579418458
+                        2020-12-28T12:27:51.819528983 2020-12-28T13:28:51.723156453
+                        2020-12-28T20:47:37.400093854 2020-12-29T08:45:14.217744186
+                        2020-12-30T08:10:27.218515130 2020-12-30T15:33:11.628252405
+                        2020-12-30T17:55:48.258142512 2020-12-31T01:53:55.926588619
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+    END StageList
+
+    Show		 Yes
+    Inherit		 Yes
+    ShowIV		 Yes
+    ShowLineGfx		 Yes
+    ShowHiliteGfx		 Yes
+    LineWidth		 1
+
+    BEGIN Crdn
+    END Crdn
+
+END Access
+
